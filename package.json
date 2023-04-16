@@ -14,11 +14,11 @@
   "exports": {
     ".": {
       "import": "./dist/awesome-vite-module.es.js",
-      "require": "./dist/awesome-vite-module.umd.js"
+      "require": "./dist/awesome-vite-module.es.js"
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "main": "./dist/awesome-vite-module.umd.js",
+  "main": "./dist/awesome-vite-module.es.js",
   "module": "./dist/awesome-vite-module.es.js",
   "types": "./dist/index.d.ts",
   "dependencies": {
